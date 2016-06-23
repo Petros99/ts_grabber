@@ -5,7 +5,6 @@ import wget
 from subprocess import run
 
 parser = argparse.ArgumentParser()
-#parser.add_argument('vid_name', type=str)
 parser.add_argument('m3u8_url', type=str)
 parser.add_argument('name', type=str)
 args = parser.parse_args()
